@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Taurus Studios</title>
+<link rel="icon" href="imgs/favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Modified W3 template -->
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">RESUME</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" >
+      <img id="logo" src="imgs/icon.png" class="w3-hover-opacity full_width w3-center w3-xlarge w3-wide w3-animate-opacity" alt="logo">
+  </div>
+</div>
+
+
+<!-- -->
+<div class="w3-content w3-container w3-padding-64" id="home">
+  
+
+  
+
+  <h3 class="w3-center">Software development</h3>
+  <p class="w3-center">
+    <em>Here are some various products I worked on.
+      <br/> 
+      Click on the images for more information.
+    </em>
+  </p>
+  <br/>
+
+  <h3 class="w3-center">Music Production</h3>
+  <p class="w3-center">
+    <em>Here are some various products I worked on.
+      <br/> 
+      Click on the images for more information.
+    </em>
+  </p>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  
+
+  
+
+  <h3 class="w3-center">PROJECTS</h3>
+  <p class="w3-center">
+    <em>Here are some various products I worked on.
+      <br/> 
+      Click on the images for more information.
+    </em>
+  </p>
+  <br/>
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="imgs/anytunelogo.jpg" onclick="window.open('https://anytune.us/')" class="w3-hover-opacity full_width" alt="Anytune">
+    </div>
+    <div class="w3-col m3">
+      <img src="imgs/anytune1.jpg" onclick="window.open('https://apps.apple.com/us/app/anytune-slow-downer-music/id722444976?mt=12')" class="w3-hover-opacity full_width" alt="Anytune for MacOS">
+    </div>
+    <div class="w3-col m3">
+      <img src="imgs/anytune2.jpg" onclick="window.open('https://apps.apple.com/us/app/anytune-pro/id478293637')" class="w3-hover-opacity full_width" alt="Anytune for iPhone">
+    </div>
+    <div class="w3-col m3">
+      <img src="imgs/anytune3.jpg" onclick="window.open('https://play.google.com/store/apps/details?id=app.anytune.musicplayer')" class="w3-hover-opacity full_width" alt="Anytune for Android">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="imgs/arc_genesis_1.jpg" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="ARC Genesis is room correction software for Desktop platforms">
+    </div>
+    <div class="w3-col m3">
+      <img src="imgs/arc_genesis_POY.png" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="ARC Genesis was claimed product of the year by absolute sound magazine">
+    </div>
+    <div class="w3-col m3">
+      <img src="imgs/arc_genesis_2.jpg" onclick="window.open('https://www.anthemarc.com/')" class="w3-hover-opacity full_width" alt="ARC Genesis was developed with QML">
+    </div>
+    <div class="w3-col m3">
+      <img src="imgs/sub_control_ml.jpg" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="Martin Logan Subwoofer control app for both Android and iOS">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="imgs/sub_control_p.jpg" onclick="window.open('https://play.google.com/store/apps/details?id=com.anthemav.subwooferapp.paradigm&showAllReviews=true')" class="w3-hover-opacity full_width" alt="Paradigm Subwoofer control app for both Android and iOS">
+    </div>
+    <div class="w3-col m3">
+      <img src="imgs/arc_room_correction.jpg" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="Anthem Room Correction app for both Android and iOS">
+    </div>
+    <div class="w3-col m3">
+      <img src="imgs/hcn_tablet.jpg" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="HCN Navigator is a tablet application for hotel rooms">
+    </div>
+    <div class="w3-col m3">
+      <img src="imgs/hcn.png" onclick="window.open('https://www.hcn-inc.com/')" class="w3-hover-opacity full_width" alt="HCN Navigator is an Android application">
+    </div>
+  </div>
+
+  <br/>
+  <h3 class="w3-center">GITHUB</h3>
+  <p class="w3-center">
+    <em>Personal projects can be found on my GitHub account.
+    </em>
+  </p>
+  <div class="w3-row-padding w3-center w3-section">
+  <img src="imgs/github.jpg" class="w3-center w3-round w3-image w3-hover-opacity" onclick="window.open('https://github.com/jasonfleischer')"  alt="Carleton University Diploma" width="100">
+  </div>
+
+
+ <br/>
+  <h3 class="w3-center">SKILLS</h3>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Android Deveopment</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">4 years</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>iOS Deveopment</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">3 years</div>
+  </div>
+  <br/>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="hide(this)">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image" src="imgs/placeholder.png" alt="modal img">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+ 
+<!-- Third Parallax -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">Contact</span>
+  </div>
+</div>
+
+
+
+<!-- Contact Section -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+<h3 class="w3-center">CONTACT</h3>
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m6 w3-container">
+      <img src="imgs/map.jpg" onclick="onClick(this)" class="w3-image w3-round w3-hover-opacity full_width" alt="Ottawa">
+    </div>
+    <div class="w3-col m6 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right" onclick="window.open('https://www.google.com/maps/place/Ottawa,+ON,+Canada')"></i>Ottawa<span class="hide_mobile">, ON, Canada</span><br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right" onclick="window.location.href ='tel:+16134070602';"></i> 1-613-407-0602<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right" onclick="window.location.href ='mailto:taurusstudios.jf@gmail.com?Subject=Taurus%20Studios%20-%20Inquiry';"></i>taurusstudios.jf@gmail.com<br>
+      </div>
+      <button class="w3-button w3-black  w3-section" type="submit" onclick="window.location.href ='mailto:taurusstudios.jf@gmail.com?Subject=Taurus%20Studios%20-%20Inquiry';">
+          <i class="fa fa-paper-plane"></i> &nbsp;&nbsp;&nbsp;SEND EMAIL MESSAGE
+        </button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32 w3-opacity">
+  <div class="w3-xlarge w3-section">
+  </div>
+</footer>
+ 
+<script src="js/w3.js" ></script>
+</body>
+</html>

@@ -1,2 +1,5 @@
-# taurus-studios
-business website
+# Taurus Studios
+
+Business website
+
+http://jasonfleischer.github.io/taurus-studios/
