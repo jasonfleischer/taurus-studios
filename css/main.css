@@ -76,12 +76,15 @@ html, body {
 	width: 100%;
 }
 
+#home {
+	max-height: 50%;
+}
+
 #home div {
 	height: 90%;
 }
 #logo {
 	height: 100%;
-	max-height: 360px;
 }
 #resume {
 	padding-top: 15px;

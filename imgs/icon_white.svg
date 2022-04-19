@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="89.2416mm"
+   height="89.2416mm"
+   viewBox="0 0 253 253"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
+  <path
+     id="Selection"
+     fill="#fff"
+     stroke="#fff"
+     stroke-width="1"
+     d="M 1.5001879,36 C 5.5502579,46.015331 8.9912708,56.197387 15.33,64 25.34,76.12 36.95,78.98 52,79 h 148 c 15.05,-0.02 26.66,-2.88 36.67,-15 5.55385,-9.00936 12.95181,-18.524144 15.33,-28 z M 39,87 54.85,116 c 7.940863,12.11489 4.278389,12.60806 17.15,15 h 29 v 32 c -3.593357,18.33962 -16.831354,35.3154 -27,53 h 104 c -6.9688,-14.88292 -26.78559,-40.33932 -27,-53 v -32 h 29 c 12.17514,-1.45591 10.43671,-4.46627 17.15,-15 L 213,87 C 154.25979,88.829913 92.747385,88.35409 39,87 Z"
+     sodipodi:nodetypes="cccccccccccccccccccc" />
+</svg>
