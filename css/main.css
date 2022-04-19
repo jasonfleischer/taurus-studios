@@ -1,5 +1,5 @@
 /* W3 */
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Ubuntu', sans-serif;}
 body, html {
   height: 100%;
   color: #777;
@@ -76,10 +76,12 @@ html, body {
 	width: 100%;
 }
 
+#title {
+	font-size: 48px;
+}
 #home {
 	max-height: 50%;
 }
-
 #home div {
 	height: 90%;
 }
