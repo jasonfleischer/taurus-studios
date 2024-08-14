@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<title>プライバシー ポリシー:</title>
+		<link rel="icon" href="https://jasonfleischer.github.io/taurus-studios/imgs/favicon.ico">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" href="https://jasonfleischer.github.io/taurus-studios/css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--Font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&amp;display=swap" rel="stylesheet">
+	</head>
+	<body onload="loadAppName()">
+		<!-- First Parallax -->
+		<div class="bgimg-1 w3-display-container w3-opacity-min">
+			<div class="w3-display-middle">
+				<img id="logo" src="https://jasonfleischer.github.io/taurus-studios/imgs/icon_white.svg" class="full_width w3-center w3-xlarge w3-wide w3-animate-opacity" alt="logo">
+			</div>
+		</div>
+		<br><br>
+		<h1 id="title" class="w3-center">プライバシー ポリシー:</h1>
+		<br>
+		<div class="w3-content w3-container">
+			<h3 class="w3-center">概要:</h3>
+			<p class="w3-center">このプライバシー ポリシーは、Taurus Studios (開発者) が作成したソフトウェア アプリケーション「<span id='app_name'></span>」(アプリケーション) の使用に適用されます。このアプリケーションは、さまざまなアクティビティの時間を正確に追跡するように設計されています。</p>
+			<br>
+			<h3 class="w3-center">Apple のプライバシー ポリシー:</h3>
+			<p class="w3-center">アプリケーションは、プライバシーを含む Apple の App Store レビュー ガイドラインに準拠しています。Apple には独自のセキュリティ ポリシーがあります: <a href='https://www.apple.com/privacy'>https://www.apple.com/privacy</a></p>
+			<br>
+			<h3 class="w3-center">データ保持ポリシー、情報の管理:</h3>
+			<p class="w3-center">アプリケーションは、ユーザー情報やデータを収集しません。</p>
+			<br>
+			<h3 class="w3-center">子供:</h3>
+			<p class="w3-center">当社は、13 歳未満の子供から故意にデータを収集したり、子供にマーケティングを行うためにアプリケーションを使用することはありません。親または保護者が、子供が同意なしに情報を提供したことを知った場合は、当社に連絡してください。当社は、妥当な期間内にファイルからそのような情報を削除します。</p>
+			<br>
+		</div>
+		<script>
+			function loadAppName() {
+				const searchParams = new URLSearchParams(window.location.search);
+				document.getElementById('app_name').innerHTML = searchParams.has('app_name') ? searchParams.get('app_name') : "!!! ERROR query parameter 'app_name' not provided !!!"
+			}
+		</script>
+	</body>
+</html>
